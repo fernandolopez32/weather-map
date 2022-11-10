@@ -1,0 +1,54 @@
+
+body{
+    background-image: url("../img/sunny.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Yantramanav', sans-serif;
+}
+nav{
+    color: whitesmoke;
+    font-weight: bolder;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.coordinates {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    padding: 5px 10px;
+    margin: 0;
+    font-size: 11px;
+    line-height: 18px;
+    border-radius: 3px;
+    display: none;
+}
+
+
+.card{
+    height: 40%;
+    width: 80%;
+    border-radius: 15px;
+}
+
+#forecast{
+    overflow: scroll;
+    height: 80vh;
+}
+#map{
+    border-radius: 400px;
+
+}
+/* large media query*/
+@media screen and (min-width:992px) {
+    .card {
+        height:45vh;
+        width: 18%;
+    }
+
+    #forecast{
+        overflow: unset;
+        height: 55vh;
+    }
+}
