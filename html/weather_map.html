@@ -6,20 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Weather Map</title>
 <!--    jQuery-->
-    <script src="js/jquery-3.6.1.min.js"></script>
+
+    <script src=""></script>
     <!-- map script and style sheet-->
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css' rel='stylesheet' /><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 <!-- keys-->
-    <script src="js/keys.js"></script>
+    <script src="../js/keys.js"></script>
 <!--  map utils  -->
-    <script src="js/mapbox-geocoder-utils.js"></script>
+    <script src="../js/mapbox-geocoder-utils.js"></script>
 <!-- bootstrap CSS only -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 <!-- Bootstrap JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 <!-- custom style-->
-    <link rel="stylesheet" href="css/weather-map.css">
+    <link rel="stylesheet" href="../css/weather-map.css">
 
 <!--    Playfair Display SC black 900-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,13 +28,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@900&display=swap" rel="stylesheet">
 <!-- Yantramanav mediup 500   -->
     <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@500&display=swap" rel="stylesheet">
+    <script src="../js/jquery-3.6.1.min.js"></script>
 </head>
 <body>
 <!-- Navbar content -->
     <nav class="navbar navbar-dark bg-primary">
         <div id="switch" class="form-check form-switch container-fluid">
             <h2 class="">Future </h2>
-            <p class="ms-2 pt-3">24 Hour Forecast</h2></p>
+            <p class="ms-2 pt-3">24 Hour Forecast</p>
             <h5 class="ms-auto" id="currentCity"></h5>
         </div>
     </nav>
@@ -57,7 +59,7 @@
 
 
 <!--Custom script-->
-<script src="js/weather-map.js"></script>
+<script src="../js/weather-map.js"></script>
 
 </body>
 </html>
