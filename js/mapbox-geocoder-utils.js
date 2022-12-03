@@ -118,7 +118,7 @@ function printWeather(data){
     $('.container').empty();
     data.list.forEach((forecast,index)=> {
         if (index % 8 === 0)
-            $('section').append(`
+            $('#forecast').append(`
         <div class="card col-8 col-md-3 mt-4 mx-auto my-3 px-0 opacity-75">
             <header class="card-header p-3">${formatTime(data.list[index].dt).split(",")[0]}</header>
             <div class="card-body">
